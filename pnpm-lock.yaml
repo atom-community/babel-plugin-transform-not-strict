@@ -4,20 +4,20 @@ importers:
 
   .:
     specifiers:
-      '@babel/cli': 7.16.7
+      '@babel/cli': 7.16.8
       '@babel/core': 7.16.7
       babel-plugin-tester: ^10.0.0
       npm-check-updates: 12.1.0
     devDependencies:
-      '@babel/cli': 7.16.7_@babel+core@7.16.7
+      '@babel/cli': 7.16.8_@babel+core@7.16.7
       '@babel/core': 7.16.7
       babel-plugin-tester: 10.0.0_@babel+core@7.16.7
       npm-check-updates: 12.1.0
 
 packages:
 
-  /@babel/cli/7.16.7_@babel+core@7.16.7:
-    resolution: {integrity: sha512-0iBF+G2Qml0y3mY5dirolyToLSR88a/KB6F2Gm8J/lOnyL8wbEOHak0DHF8gjc9XZGgTDGv/jYXNiapvsYyHTA==}
+  /@babel/cli/7.16.8_@babel+core@7.16.7:
+    resolution: {integrity: sha512-FTKBbxyk5TclXOGmwYyqelqP5IF6hMxaeJskd85jbR5jBfYlwqgwAbJwnixi1ZBbTqKfFuAA95mdmUFeSRwyJA==}
     engines: {node: '>=6.9.0'}
     hasBin: true
     peerDependencies:
