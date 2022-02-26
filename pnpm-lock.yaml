@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@babel/cli': 7.17.3
+      '@babel/cli': 7.17.6
       '@babel/core': 7.17.5
       babel-plugin-tester: ^10.0.0
       npm-check-updates: 12.4.0
     devDependencies:
-      '@babel/cli': 7.17.3_@babel+core@7.17.5
+      '@babel/cli': 7.17.6_@babel+core@7.17.5
       '@babel/core': 7.17.5
       babel-plugin-tester: 10.0.0_@babel+core@7.17.5
       npm-check-updates: 12.4.0
@@ -23,8 +23,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@babel/cli/7.17.3_@babel+core@7.17.5:
-    resolution: {integrity: sha512-1+WRlh1IqLocOp122CLx4if345RSHMspwIZNJTlqG/GA46HVZC6p49N1kolfdd2/GOdr+tu4nScbAR3ACJ2ZiA==}
+  /@babel/cli/7.17.6_@babel+core@7.17.5:
+    resolution: {integrity: sha512-l4w608nsDNlxZhiJ5tE3DbNmr61fIKMZ6fTBo171VEFuFMIYuJ3mHRhTLEkKKyvx2Mizkkv/0a8OJOnZqkKYNA==}
     engines: {node: '>=6.9.0'}
     hasBin: true
     peerDependencies:
