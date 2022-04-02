@@ -7,12 +7,12 @@ importers:
       '@babel/cli': 7.17.6
       '@babel/core': 7.17.8
       babel-plugin-tester: ^10.0.0
-      npm-check-updates: 12.5.4
+      npm-check-updates: 12.5.5
     devDependencies:
       '@babel/cli': 7.17.6_@babel+core@7.17.8
       '@babel/core': 7.17.8
       babel-plugin-tester: 10.0.0_@babel+core@7.17.8
-      npm-check-updates: 12.5.4
+      npm-check-updates: 12.5.5
 
 packages:
 
@@ -298,7 +298,7 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16}
     dependencies:
       '@npmcli/promise-spawn': 1.3.2
-      lru-cache: 7.3.1
+      lru-cache: 7.7.3
       mkdirp: 1.0.4
       npm-pick-manifest: 7.0.0
       proc-log: 2.0.0
@@ -1085,6 +1085,13 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
+  /hosted-git-info/5.0.0:
+    resolution: {integrity: sha512-rRnjWu0Bxj+nIfUOkz0695C0H6tRrN5iYIzYejb0tDEefe2AekHu/U5Kn9pEie5vsJqpNQU02az7TGSH3qpz4Q==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16}
+    dependencies:
+      lru-cache: 7.7.3
+    dev: true
+
   /http-cache-semantics/4.1.0:
     resolution: {integrity: sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==}
     dev: true
@@ -1385,8 +1392,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lru-cache/7.3.1:
-    resolution: {integrity: sha512-nX1x4qUrKqwbIAhv4s9et4FIUVzNOpeY07bsjGUy8gwJrXH/wScImSQqXErmo/b2jZY2r0mohbLA9zVj7u1cNw==}
+  /lru-cache/7.7.3:
+    resolution: {integrity: sha512-WY9wjJNQt9+PZilnLbuFKM+SwDull9+6IAguOrarOMoOHTcJ9GnXSO11+Gw6c7xtDkBkthR57OZMtZKYr+1CEw==}
     engines: {node: '>=12'}
     dev: true
 
@@ -1415,7 +1422,7 @@ packages:
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.0
       is-lambda: 1.0.1
-      lru-cache: 7.3.1
+      lru-cache: 7.7.3
       minipass: 3.1.6
       minipass-collect: 1.0.2
       minipass-fetch: 1.4.1
@@ -1603,8 +1610,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/12.5.4:
-    resolution: {integrity: sha512-4+27zaTdieWgvPLaCZ/A6Q2WC1cYVcrc2SqVmLFYgkWBrKw1QkwpeV16FSvkFGZr3OdFyr7Dpjw8JRn4H2QxFw==}
+  /npm-check-updates/12.5.5:
+    resolution: {integrity: sha512-7LH6KN6F1fZMtY4zNYAQPpJU1ToxZ6sSCxk948vrLIz97aNqmPLSX72MrmbOWwpyBgLCPbFJWY/k3zE18pmxfw==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
@@ -1617,7 +1624,7 @@ packages:
       fp-and-or: 0.1.3
       get-stdin: 8.0.0
       globby: 11.0.4
-      hosted-git-info: 4.1.0
+      hosted-git-info: 5.0.0
       json-parse-helpfulerror: 1.0.3
       jsonlines: 0.1.1
       libnpmconfig: 1.2.1
