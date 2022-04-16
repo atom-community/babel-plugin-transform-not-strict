@@ -7,12 +7,12 @@ importers:
       '@babel/cli': 7.17.6
       '@babel/core': 7.17.9
       babel-plugin-tester: ^10.0.0
-      npm-check-updates: 12.5.8
+      npm-check-updates: 12.5.9
     devDependencies:
       '@babel/cli': 7.17.6_@babel+core@7.17.9
       '@babel/core': 7.17.9
       babel-plugin-tester: 10.0.0_@babel+core@7.17.9
-      npm-check-updates: 12.5.8
+      npm-check-updates: 12.5.9
 
 packages:
 
@@ -1393,6 +1393,7 @@ packages:
   /lru-cache/7.7.3:
     resolution: {integrity: sha512-WY9wjJNQt9+PZilnLbuFKM+SwDull9+6IAguOrarOMoOHTcJ9GnXSO11+Gw6c7xtDkBkthR57OZMtZKYr+1CEw==}
     engines: {node: '>=12'}
+    deprecated: Please update to latest patch version to fix memory leak https://github.com/isaacs/node-lru-cache/issues/227
     dev: true
 
   /make-dir/2.1.0:
@@ -1608,8 +1609,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/12.5.8:
-    resolution: {integrity: sha512-8SDZ6qYXI0aKf63zSbByqB9QmK8ygrZ+UVcXg9kGQyvH7dGIcFauFF0ksC0NdThHkU/5QhowJVSHXva9zujkJg==}
+  /npm-check-updates/12.5.9:
+    resolution: {integrity: sha512-l9iOvD7EsQb96gFJL45V01YG6bP8+dmobYnSguvehPuNwgdWNMrE8RC8bSfURX5iUmX4bkobN4T8XMHXN9GMHA==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
