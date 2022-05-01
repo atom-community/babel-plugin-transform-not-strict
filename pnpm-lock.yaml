@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 importers:
 
@@ -7,12 +7,12 @@ importers:
       '@babel/cli': 7.17.10
       '@babel/core': 7.17.10
       babel-plugin-tester: ^10.0.0
-      npm-check-updates: 12.5.10
+      npm-check-updates: 12.5.11
     devDependencies:
       '@babel/cli': 7.17.10_@babel+core@7.17.10
       '@babel/core': 7.17.10
       babel-plugin-tester: 10.0.0_@babel+core@7.17.10
-      npm-check-updates: 12.5.10
+      npm-check-updates: 12.5.11
 
 packages:
 
@@ -1610,8 +1610,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/12.5.10:
-    resolution: {integrity: sha512-GKBmgC6ZDZwshsOSuse+JYDFVQcaKj9NWNWXW9oWX0TdrKJx26/iR6d4t6LG+iNm5jX+voBoGcEIaGF8CRzWpw==}
+  /npm-check-updates/12.5.11:
+    resolution: {integrity: sha512-uS3yYYK/F1VvZlJRymuCkq+MY2R7v/WlORo5WPUTYx+1OwkqeDMC/CEEGfCN7ATwT2M+JxVVKk9Gq/TGiZjJOw==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
