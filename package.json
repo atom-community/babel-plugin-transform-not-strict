@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@babel/cli": "7.17.10",
-    "@babel/core": "7.18.2",
+    "@babel/core": "7.18.5",
     "babel-plugin-tester": "^10.0.0",
-    "npm-check-updates": "13.1.4"
+    "npm-check-updates": "14.0.1"
   }
 }
