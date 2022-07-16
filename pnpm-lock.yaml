@@ -7,12 +7,12 @@ importers:
       '@babel/cli': 7.18.6
       '@babel/core': 7.18.6
       babel-plugin-tester: ^10.0.0
-      npm-check-updates: 15.2.6
+      npm-check-updates: 15.3.3
     devDependencies:
       '@babel/cli': 7.18.6_@babel+core@7.18.6
       '@babel/core': 7.18.6
       babel-plugin-tester: 10.0.0_@babel+core@7.18.6
-      npm-check-updates: 15.2.6
+      npm-check-updates: 15.3.3
 
 packages:
 
@@ -442,10 +442,6 @@ packages:
       '@types/responselike': 1.0.0
     dev: true
 
-  /@types/color-name/1.1.1:
-    resolution: {integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==}
-    dev: true
-
   /@types/http-cache-semantics/4.0.1:
     resolution: {integrity: sha512-SZs7ekbP8CN0txVG2xVRH6EgKmEm31BOxA07vkFaETzZz1xh+cbt8BcI0slpymvwhx5dlFnQG2rTlPVQn+iRPQ==}
     dev: true
@@ -527,14 +523,6 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       color-convert: 1.9.3
-    dev: true
-
-  /ansi-styles/4.2.1:
-    resolution: {integrity: sha512-9VGjrMsG1vePxcSweQsN20KY/c4zN0h9fLjqAbwbPfahM3t+NL+M9HC8xeXG2I8pX5NoamTGNuomEUFI7fcUjA==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@types/color-name': 1.1.1
-      color-convert: 2.0.1
     dev: true
 
   /ansi-styles/6.1.0:
@@ -713,14 +701,6 @@ packages:
       supports-color: 5.5.0
     dev: true
 
-  /chalk/4.1.2:
-    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
-    engines: {node: '>=10'}
-    dependencies:
-      ansi-styles: 4.2.1
-      supports-color: 7.1.0
-    dev: true
-
   /chalk/5.0.1:
     resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
@@ -781,19 +761,8 @@ packages:
       color-name: 1.1.3
     dev: true
 
-  /color-convert/2.0.1:
-    resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
-    engines: {node: '>=7.0.0'}
-    dependencies:
-      color-name: 1.1.4
-    dev: true
-
   /color-name/1.1.3:
     resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
-    dev: true
-
-  /color-name/1.1.4:
-    resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
 
   /color-support/1.1.3:
@@ -1158,11 +1127,6 @@ packages:
   /has-flag/3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
-    dev: true
-
-  /has-flag/4.0.0:
-    resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
-    engines: {node: '>=8'}
     dev: true
 
   /has-unicode/2.0.1:
@@ -1694,12 +1658,12 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/15.2.6:
-    resolution: {integrity: sha512-lXihP+6EjHW74ENE6YYW2feUmdsfK4evus2ZTCyTd0QSnmHdx0bcHpiHsjgqjPtIqgHPJXLCrV6gd3JGYZg3xg==}
+  /npm-check-updates/15.3.3:
+    resolution: {integrity: sha512-kdZte9jeJ3n8tS8wxAjrvQz5owi4AEY9pxt5OaEzw094k/ymg0HYR6b89W2OJaFn7xK4tCrkOFp9PUWKlydA8Q==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
-      chalk: 4.1.2
+      chalk: 5.0.1
       cli-table: 0.3.11
       commander: 9.3.0
       fast-memoize: 2.5.2
@@ -2284,13 +2248,6 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       has-flag: 3.0.0
-    dev: true
-
-  /supports-color/7.1.0:
-    resolution: {integrity: sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==}
-    engines: {node: '>=8'}
-    dependencies:
-      has-flag: 4.0.0
     dev: true
 
   /tar/6.1.11:
