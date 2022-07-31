@@ -7,12 +7,12 @@ importers:
       '@babel/cli': 7.18.9
       '@babel/core': 7.18.9
       babel-plugin-tester: ^10.0.0
-      npm-check-updates: 16.0.3
+      npm-check-updates: 16.0.4
     devDependencies:
       '@babel/cli': 7.18.9_@babel+core@7.18.9
       '@babel/core': 7.18.9
       babel-plugin-tester: 10.0.0_@babel+core@7.18.9
-      npm-check-updates: 16.0.3
+      npm-check-updates: 16.0.4
 
 packages:
 
@@ -1658,8 +1658,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/16.0.3:
-    resolution: {integrity: sha512-oTCQ/USrDBruVOIRrnpxk4oW4H1mIJfcSta2/ffslKv6kqv4C22hP+ltZoRGu+1nhZ5dsDb/B8CoVyD27/Wm8w==}
+  /npm-check-updates/16.0.4:
+    resolution: {integrity: sha512-aHin9jGdg9NipAeGujsAECR26EKqLPFHBITWnN+wnCmt9jDbqcSRXcIduvxpSDI/GcHXIGxBGF4ZzHqDnFyEgg==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
