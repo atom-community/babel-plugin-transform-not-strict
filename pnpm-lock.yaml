@@ -7,12 +7,12 @@ importers:
       '@babel/cli': 7.19.3
       '@babel/core': 7.19.6
       babel-plugin-tester: ^10.0.0
-      npm-check-updates: 16.3.15
+      npm-check-updates: 16.3.16
     devDependencies:
       '@babel/cli': 7.19.3_@babel+core@7.19.6
       '@babel/core': 7.19.6
       babel-plugin-tester: 10.0.0_@babel+core@7.19.6
-      npm-check-updates: 16.3.15
+      npm-check-updates: 16.3.16
 
 packages:
 
@@ -221,7 +221,7 @@ packages:
       '@babel/helper-split-export-declaration': 7.18.6
       '@babel/parser': 7.19.6
       '@babel/types': 7.19.4
-      debug: 4.3.2
+      debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -499,7 +499,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -508,7 +508,7 @@ packages:
     resolution: {integrity: sha512-Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==}
     engines: {node: '>= 8.0.0'}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.4
       depd: 1.1.2
       humanize-ms: 1.2.1
     transitivePeerDependencies:
@@ -895,6 +895,18 @@ packages:
       ms: 2.1.2
     dev: true
 
+  /debug/4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: true
+
   /decompress-response/6.0.0:
     resolution: {integrity: sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==}
     engines: {node: '>=10'}
@@ -1213,7 +1225,7 @@ packages:
     dependencies:
       '@tootallnate/once': 2.0.0
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1231,7 +1243,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1300,6 +1312,11 @@ packages:
   /ini/2.0.0:
     resolution: {integrity: sha512-7PnF4oN3CvZF23ADhA5wRaYEQpJ8qygSkbtTXWBeXWXmEVRXK+1ITciHWwHhsjv1TmW0MgacIv6hEi5pX5NQdA==}
     engines: {node: '>=10'}
+    dev: true
+
+  /ini/3.0.1:
+    resolution: {integrity: sha512-it4HyVAUTKBc6m8e1iXWvXSTdndF7HbdN713+kvLrymxTaU4AUBWrJ4vEooP+V7fexnVD3LKcBshjGGPefSMUQ==}
+    engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dev: true
 
   /ip/1.1.5:
@@ -1397,8 +1414,8 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
 
-  /js-yaml/4.0.0:
-    resolution: {integrity: sha512-pqon0s+4ScYUvX30wxQi3PogGFAlUyH0awepWvwkj4jD4v+ova3RiYw8bmA6x2rDrEaj8i/oWKoRxpVNW+Re8Q==}
+  /js-yaml/4.1.0:
+    resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -1714,8 +1731,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/16.3.15:
-    resolution: {integrity: sha512-gRjApPUQxcdZuwIMTvWxPrB1mBWTml0Xj4t50vxdsItXUaNryYGrGve3ouZGxbowcs46Tji1tSbw7+9lnGT0sA==}
+  /npm-check-updates/16.3.16:
+    resolution: {integrity: sha512-OJRfwc2+p0ZnDvZQ4FOou9ev4kI6c0Lmu+uEJjijCNUSXnf5AEpyB6+kX31HsmkDzQ10ApA4CvM1TE+rXP+R8g==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
@@ -1728,6 +1745,7 @@ packages:
       get-stdin: 8.0.0
       globby: 11.0.4
       hosted-git-info: 5.1.0
+      ini: 3.0.1
       json-parse-helpfulerror: 1.0.3
       jsonlines: 0.1.1
       lodash: 4.17.21
@@ -1737,7 +1755,7 @@ packages:
       parse-github-url: 1.0.2
       progress: 2.0.3
       prompts-ncu: 2.5.1
-      rc-config-loader: 4.1.0
+      rc-config-loader: 4.1.1
       remote-git-tags: 3.0.0
       rimraf: 3.0.2
       semver: 7.3.8
@@ -2002,11 +2020,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /rc-config-loader/4.1.0:
-    resolution: {integrity: sha512-aW+kX4qy0CiM9L4fG4Us3oEOpIrOrXzWykAn+xldD07Y9PXWjTH744oHbv0Kc9ZwWaylw3jMjxaf14RgStrNrA==}
+  /rc-config-loader/4.1.1:
+    resolution: {integrity: sha512-S10o85x/szboh7FOxUyU+KuED+gr9V7SEnUBOzSn+vd1K8J2MtkP1RCPWg8Sw5kkuZKr7976bFzacCM6QtAApQ==}
     dependencies:
-      debug: 4.3.2
-      js-yaml: 4.0.0
+      debug: 4.3.4
+      js-yaml: 4.1.0
       json5: 2.2.1
       require-from-string: 2.0.2
     transitivePeerDependencies:
@@ -2205,7 +2223,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.4
       socks: 2.6.1
     transitivePeerDependencies:
       - supports-color
