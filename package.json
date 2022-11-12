@@ -30,6 +30,6 @@
     "@babel/cli": "7.19.3",
     "@babel/core": "7.20.2",
     "babel-plugin-tester": "^10.0.0",
-    "npm-check-updates": "16.3.16"
+    "npm-check-updates": "16.3.22"
   }
 }
