@@ -24,7 +24,7 @@
     "bump": "ncu -u"
   },
   "peerDependencies": {
-    "@babel/core": "^7"
+    "@babel/core": "^7 || ^8.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.19.3",
